@@ -7,6 +7,16 @@ const data = [42, 56, 52, 2, 54, 3, 7, 67, 3, 10, 0, 97];
 // };
 
 function element() {
+
     const input = document.getElementById("inp").value;
-    alert(data[input])
+    if (input < data.length && input >= 0) {
+
+        alert(data[input])
+    }
+    else {
+        alert("Please Enter 12 Less Then Value")
+    }
+
 };
+
+// Task - Values Pe Alert Dikhay : Completed
